@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Running Inspo-Matic</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu:700|Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+      <header>
+        <h1> RUNNING INSPO-MATIC</h1>
+        <!-- <p>Little shoves out the door, written by Dumb Runner</p> -->
+      </header>
+
+  <!-- Question that stays at the top -->
+    <div id="question">
+      <h2>Do you need a push to get started on your run today?</h2>
+    </div>
+  <!-- Box that holds the answers -->
+    <div id="quoteDisplay">
+      <div id="quoteButton">
+        <button onclick='newQuote()'><p>Yes, give me one!</p></button>
+      </div>
+    </div>
+  <!-- Button that displays at the bottom after the first quote is displayed -->
+    <div id="another">
+      <button onclick='anotherQuote()'>Give me another one!</button>
+    </div>
+  </div>
+<!-- Footer that credits Dumb Runner -->
+  <footer>
+    <p>For more running inspiration, check out Dumb Runner's <a href="https://dumbrunner.com/posters">full collection of motivational posters</a>.
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script src="js/quoteGenerator.js"></script>
+</body>
+</html>
