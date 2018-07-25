@@ -5,12 +5,12 @@ $('#another').hide();
 // button, display a random quote
 
 var quotes = [
-  'This is a quote',
-  'This is another quote',
-  'Also a quote',
-  'Still a quote',
-  'Run',
-  'Go running'
+  'Run until you stop',
+  'Every mile you run gets you 1.6 km closer to your goal.',
+  'The next time you feel like quitting, find a way not to somehow.',
+  "You can't stop running until you start.",
+  "You'll never know how far you can go without a measuring device of some sort.",
+  'A goal without go is just al.'
 ]
 
 function newQuote(){
@@ -27,12 +27,12 @@ $("#quoteButton").click(function(){
 // display a random quote
 
 var quotes = [
-  'This is a quote',
-  'This is another quote',
-  'Also a quote',
-  'Still a quote',
-  'Run',
-  'Go running'
+  'Run until you stop',
+  'Every mile you run gets you 1.6 km closer to your goal.',
+  'The next time you feel like quitting, find a way not to somehow.',
+  "You can't stop running until you start.",
+  "You'll never know how far you can go without a measuring device of some sort.",
+  'A goal without go is just al.'
 ]
 
 function anotherQuote(){
