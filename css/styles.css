@@ -75,11 +75,12 @@ button p {
 
 #another button{
   background-color: white;
-  /* border: 2px #e65c00 solid; /*  dark orange */
+  border: none;
   padding: 25px 50px;
   color: black;
   font-family: 'Passion One', sans-serif;
   font-size: 3em;
+
 }
 
 footer {
