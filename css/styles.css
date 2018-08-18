@@ -3,9 +3,9 @@ body {
   background-color: whitesmoke;
 }
 
-.content {
+/* .content {
   min-height: calc(100vh - 70px);
-}
+} */
 
 header {
   background-color: white;
@@ -83,20 +83,21 @@ button p {
 
 }
 
-footer {
+#credit {
   padding-top: 20px;
   font-family: sans-serif;
   font-weight: bold;
   height: 50px;
+  text-align: center;
 }
 
-footer a {
+#credit a {
   text-decoration: none;
 }
 
 /* Media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
   header {
     width: 75%;
